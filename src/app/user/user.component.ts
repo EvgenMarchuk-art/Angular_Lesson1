@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, EventEmitter, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-user',
@@ -10,7 +10,10 @@ export class UserComponent {
   @Input()
   user: UserModel;
 
+
+
   constructor() {
   }
+
 
 }
